@@ -1,0 +1,44 @@
+{
+  "name": "azazel",
+  "version": "1.0.0",
+  "description": "File transporter",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anistark/azazel.git"
+  },
+  "keywords": [
+    "azazel",
+    "anistark",
+    "file",
+    "teleport",
+    "transport",
+    "download",
+    "upload"
+  ],
+  "author": "Kumar Anirudha <anirudhastark@yahoo.com> (http://anirudha.org)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/anistark/azazel/issues"
+  },
+  "homepage": "https://github.com/anistark/azazel#readme",
+  "dependencies": {
+    "async": "^2.5.0",
+    "aws-sdk": "^2.117.0",
+    "body-parser": "^1.18.1",
+    "chokidar": "^1.7.0",
+    "cluster": "^0.7.7",
+    "colors": "^1.1.2",
+    "compression": "^1.7.0",
+    "exports": "0.0.1",
+    "moment": "^2.18.1",
+    "morgan": "^1.8.2",
+    "pm2": "^2.7.0",
+    "redis": "^2.8.0",
+    "request": "^2.81.0",
+    "sqs-consumer": "^3.7.0"
+  }
+}

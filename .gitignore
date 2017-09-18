@@ -57,3 +57,13 @@ typings/
 # dotenv environment variables file
 .env
 
+# Config Files
+config.js
+
+# Idea Files
+.idea
+
+# Temp Files
+temp/*
+!temp/.gitkeep
+.DS_Store
