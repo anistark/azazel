@@ -19,8 +19,14 @@ var msgBody = {
   }
 }
 
-utils.getFile(msgBody.file_url, msgBody.extra_data, function(err, co) {
-    console.log('--1--', err, co);
-});
+// utils.getFile(msgBody.file_url, msgBody.extra_data, function(err, co) {
+//     console.log('--1--', err, co);
+// });
+
+var filePath = './temp/4a301b4d577a31f3.jpg';
+
+utils.uploadFile(filePath, function (err, fileResponse) {
+    console.log('>> 1 >>', err, fileResponse);
+})
 
 console.log('-- Test ends --');

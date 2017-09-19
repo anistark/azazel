@@ -13,6 +13,11 @@ module.exports = {
         resultQueueUrl: '',
         region: ''
     },
+    s3:{
+        bucketUploadTo: '',
+        region: '',
+        bucketDefaultKey: 'dump'
+    },
     elasticSearch: {
         host: process.env.elasticsearch_host || 'localhost:9200',
         log: 'info',
