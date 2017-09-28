@@ -1,5 +1,7 @@
 # Azazel
 
+[![Build Status](https://travis-ci.org/anistark/azazel.svg?branch=master)](https://travis-ci.org/anistark/azazel) 
+
 File transporter.
 
 ## Setup
