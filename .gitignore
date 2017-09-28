@@ -67,3 +67,6 @@ config.js
 temp/*
 !temp/.gitkeep
 .DS_Store
+
+# Coveralls
+.coveralls.yml

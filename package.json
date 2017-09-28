@@ -40,5 +40,11 @@
     "redis": "^2.8.0",
     "request": "^2.81.0",
     "sqs-consumer": "^3.7.0"
+  },
+  "devDependencies": {
+    "coveralls": "^2.13.2",
+    "jscoverage": "^0.6.0",
+    "mocha-lcov-reporter": "^1.3.0",
+    "nodeunit": "^0.11.1"
   }
 }

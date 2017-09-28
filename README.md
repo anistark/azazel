@@ -1,6 +1,6 @@
 # Azazel
 
-[![Build Status](https://travis-ci.org/anistark/azazel.svg?branch=master)](https://travis-ci.org/anistark/azazel) 
+[![Build Status](https://travis-ci.org/anistark/azazel.svg?branch=master)](https://travis-ci.org/anistark/azazel)
 
 File transporter.
 
@@ -17,3 +17,11 @@ File transporter.
 ## Run
 
 `node app.js`
+
+
+# Todo
+
+- [x] Add Documentation/Wiki.
+- [x] Add a landing gh-page to be seen at https://anistark.github.io/azazel
+- [ ] Add Test-Cases
+- [ ] Add Coveralls
