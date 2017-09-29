@@ -1,5 +1,6 @@
 # Azazel
 
+[![Coverage Status](https://coveralls.io/repos/github/anistark/azazel/badge.svg)](https://coveralls.io/github/anistark/azazel)
 [![Build Status](https://travis-ci.org/anistark/azazel.svg?branch=master)](https://travis-ci.org/anistark/azazel)
 
 File transporter.
