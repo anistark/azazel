@@ -5,7 +5,9 @@
 
 File transporter.
 
-2 queues are used to operate. Any node trying to use Azazel must run a task to push the files to be uploaded and write the files to their corresponding database after reading from result queue.
+## Description
+
+Transports file from any place(downloadable) to s3(or another storage). 2 queues are used to operate. Any node trying to use Azazel must run a task to push the files to be uploaded and write the files to their corresponding database after reading from result queue.
 
 Azazel can run concurrently across multiple instances in case of scalability requirements.
 
